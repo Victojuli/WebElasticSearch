@@ -17,6 +17,7 @@ using WebElasticSearch.Services;
 namespace WebElasticSearch.Controllers
 {
     [Authorize]
+    //--
     [Route("[controller]/[action]")]
     public class AccountController : Controller
     {
